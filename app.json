@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/personalCenter/personalCenter",
+    "pages/findEggs/findEggs",
+    "pages/eggStory/eggStory",
+    "pages/eggCommunity/eggCommunity",
+    "pages/eggCupboard/eggCupboard"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FCD681",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "backgroundColor":"#FCD681",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath": "pages/findEggs/findEggs",
+        "text": "扭蛋",
+        "iconPath":"images/findEggs.png",
+        "selectedIconPath":"images/findEggsClicked.png"
+      },
+      {
+        "pagePath": "pages/eggStory/eggStory",
+        "text": "一番赏",
+        "iconPath": "images/eggStory.png",
+        "selectedIconPath": "images/eggStoryClicked.png"
+      },
+      {
+        "pagePath": "pages/eggCommunity/eggCommunity",
+        "text": "蛋圈",
+        "iconPath": "images/eggCommunity.png",
+        "selectedIconPath": "images/eggCommunityClicked.png"
+      },
+      {
+        "pagePath": "pages/eggCupboard/eggCupboard",
+        "text": "蛋柜",
+        "iconPath": "images/eggCupboard.png",
+        "selectedIconPath": "images/eggCupboardClicked.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "我的",
+        "iconPath": "images/personalCenter.png",
+        "selectedIconPath": "images/personalCenterClicked.png"
+      }
+    ]
+  }
+}
